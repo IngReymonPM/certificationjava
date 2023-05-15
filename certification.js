@@ -45,3 +45,7 @@ let c = 33;
 a /= 12;
 b /=  4;
 c /=  11;
+//Debes usar dos comillas dobles (") y cuatro comillas dobles escapadas (\").
+//Aprobado:La variable myStr debe contener la cadena: I am a "double quoted" string inside "double quotes".
+let myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
