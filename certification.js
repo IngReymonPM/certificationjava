@@ -71,3 +71,65 @@ const myStr = "i am groot" + myName + " flack";
 const someAdjective = "i am grood";
 let myStr = "Learning to code is " ;
 myStr += someAdjective;
+
+// Configuración
+let lastNameLength = 0;
+const lastName = "Lovelace";
+//No debes cambiar las declaraciones de variables en la sección // Setup.
+//Aprobado:lastNameLength debe ser igual a ocho.
+//Aprobado:Debes obtener la longitud de lastName usando .length de esta forma: lastName.length.
+// Cambia solo el código debajo de esta línea
+lastNameLength = lastName.length;
+
+// Configuración
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+//Aprobado:La variable firstLetterOfLastName debe tener el valor de L.
+//Aprobado:Debes usar la notación de corchetes.
+// Cambia solo el código debajo de esta línea
+firstLetterOfLastName = lastName[0];
+// Aprobado:myStr debe tener una cadena con valor Hello World.
+// Aprobado:No debes cambiar el código por encima del comentario especificado.
+// Configuración
+let myStr = "Jello World";
+
+// Cambia solo el código debajo de esta línea
+myStr = "Hello World"; // Cambia esta línea
+// Cambia solo el código encima de esta línea
+
+// Configuración
+const lastName = "Lovelace";
+//La variable thirdLetterOfLastName debe tener el valor de v.
+//Aprobado:Debes usar la notación de corchete
+// Cambia solo el código debajo de esta línea
+const thirdLetterOfLastName = lastName[2]; // Cambia esta línea
+//Aprobado:lastLetterOfLastName debe ser la letra e.
+//Aprobado:Debes usar .length para obtener la última letra.
+// Configuración
+const lastName = "Lovelace";
+
+// Cambia solo el código debajo de esta línea
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Cambia esta línea
+
+
+
+// secondToLastLetterOfLastName debe ser la letra c.
+// Aprobado:Debes usar .length para obtener la penúltima letra.
+// Cambia solo el código debajo de esta línea
+// Configuración
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Cambia esta línea
+
+// wordBlanks debe ser una cadena.
+// Aprobado:No debes cambiar los valores asignados a myNoun, myVerb, myAdjective o myAdverb.
+// Aprobado:No debes utilizar directamente los valores dog, ran, big o quickly para crear wordBlanks.
+// Aprobado:wordBlanks debes contener todas las palabras asignadas a las variables myNoun, myVerb, myAdjective y myAdverb separadas por caracteres no-palabra (y cualquier palabra adicional de su elección).
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Cambia solo el código debajo de esta línea
+const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+ // Cambia esta línea
+// Cambia solo el código encima de esta línea
