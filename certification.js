@@ -48,4 +48,26 @@ c /=  11;
 //Debes usar dos comillas dobles (") y cuatro comillas dobles escapadas (\").
 //Aprobado:La variable myStr debe contener la cadena: I am a "double quoted" string inside "double quotes".
 let myStr = "I am a \"double quoted\" string inside \"double quotes\".";
-
+// myStr Debe tener un solo carácter de espacio entre las dos cadenas.
+// Aprobado:myStr debe tener un valor de la cadena This is the start. This is the end.
+// Aprobado:Deberías usar el operador + para construir myStr.
+// Aprobado:myStr Debe crearse una variable con la palabra reservada const.
+// Aprobado:Debes asignar el resultado a la variable myStr.
+const myStr =  "This is the start." + " This is the end."; // Change this line-*
+// myStr Debe tener un solo carácter de espacio entre las dos cadenas.
+// Aprobado:myStr Debe tener un valor de la cadena This is the first sentence. This is the second sentence.
+// Aprobado:Deberías usar el operador += para construir myStr.
+let myStr;
+myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+// myName debe establecerse en una cadena de al menos 3 caracteres de largo.
+// Aprobado:Debes usar dos operadores + para construir myStr con myName dentro de él.
+// Cambia solo el código debajo de esta línea
+const myName = "soy reymon pacheco";
+const myStr = "i am groot" + myName + " flack";
+// Aprobado:someAdjective debe ser establecido a una cadena de al menos 3 caracteres.
+// Aprobado:Debes añadir someAdjective a myStr usando el operador +=.
+// Cambia el código debajo de esta línea
+const someAdjective = "i am grood";
+let myStr = "Learning to code is " ;
+myStr += someAdjective;
