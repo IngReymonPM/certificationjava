@@ -133,3 +133,51 @@ const myAdverb = "quickly";
 const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
  // Cambia esta línea
 // Cambia solo el código encima de esta línea
+
+
+//arreglos en Javascript 
+console.log(numeros);   // [1, 2, 3, 4, 5]
+console.log(palabras);   // ["Hola", "Mundo", "JavaScript"]
+console.log(mezclado);   // [1, "dos", true, [1, 2, 3]]
+
+//Aprobado:myArray debe ser un arreglo.
+//Aprobado:El primer elemento en myArray debe ser una cadena.
+//Aprobado:El segundo elemento en myArray debe ser un número.
+// Cambia solo el código debajo de esta línea
+const myArray = ["myArray", 48];
+-----------------------------------
+ // Cambia solo el código debajo de esta línea
+//myArray debe tener al menos un arreglo anidado dentro de otro arreglo.
+const myArray = [[1,2]];
+//Aprobado:La variable myData debe ser igual al primer valor de myArray.
+//Aprobado:Los datos en la variable myArray deben ser accedidos utilizando notación de corchetes.
+const myArray = [50, 60, 70];
+let myData = myArray[0];
+console.log(myData);
+//Aprobado:myArray ahora debe ser [45, 64, 99].
+//Aprobado:Debes usar el índice correcto para modificar el valor en myArray.
+// Configuración
+const myArray = [18, 64, 99];
+
+// Cambia solo el código debajo de esta línea
+myArray[0] = 45, 64, 99;
+------------------------------------------------------
+//myData debe ser igual a 8.
+//Aprobado:Debes usar notación de corchetes para leer el valor correcto de myArray.
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+console.log(myData);
+
+//myArray debe ser igual a [["John", 23], ["cat", 2], ["dog", 3]].
+// Configuración
+const myArray = [["John", 23], ["cat", 2]];
+
+// Cambia solo el código debajo de esta línea
+myArray.push(["dog", 3]);
+
